@@ -1,24 +1,16 @@
-# README
+List of supported endpoints
+* Navigating to the /users endpoint will list all users in your app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Navigating to the /users/:id will show the page with the information about the user with the given id
 
-Things you may want to cover:
+  * Returns 404 if the id was not found.
+* From the browser, you can create the user
 
-* Ruby version
+* From the browser, you can update the user
 
-* System dependencies
+* From the browser, you can delete the user
 
-* Configuration
+* There is a validation error for incorrect create or update action
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+E.g. Each user has to have an email and an error is displayed if this required value is not provided
+Users index page (/users) shows the list of all the users; for each user it shows the list of all posts that belong to the given user and for each post it shows all the comments that belong to the post.
