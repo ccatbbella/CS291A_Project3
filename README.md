@@ -1,4 +1,4 @@
-### List of supported endpoints
+## List of supported endpoints
 * Navigating to the /users endpoint will list all users in your app
 
 * Navigating to the /users/:id will show the page with the information about the user with the given id
@@ -14,3 +14,6 @@
 
   * E.g. Each user has to have an email and an error is displayed if this required value is not provided
 * Users index page (/users) shows the list of all the users; for each user, it shows the list of all posts that belong to the given user, and for each post, it shows all the comments that belong to the post.
+
+## How to run the app
+Type "bin/rails server" on the command line prompt.
