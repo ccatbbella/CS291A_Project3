@@ -1,0 +1,49 @@
+.new_user_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(92, 197, 187); 
+    color: white; /* Text color */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+
+
+  .delete_user_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red; 
+    color: white; /* Text color */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+
+
+  .edit_user_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(92, 197, 187); 
+    color: white; /* Text color */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+
+  .comment_icon {
+    width: 20px; /* Set your desired width */
+    height: 20px; 
+    text-decoration: none; /* Remove the underline */
+    color: transparent; /* Make the link text transparent (invisible) */
+    background: none; /* Remove any background color or border */
+    cursor: pointer; 
+  }
